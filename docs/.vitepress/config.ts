@@ -6,7 +6,7 @@ export default {
             // { text: "组件", link: "/components/button/" },
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/qddidi/easyest" },
+            { icon: "github", link: "https://github.com/WangZiChu199910252255/vue-js-ts-docs" },
         ],
         sidebar: [
             {
