@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^18.16.1
   vitepress: 1.0.0-alpha.74
   vue: ^3.2.47
 
 devDependencies:
-  vitepress: 1.0.0-alpha.74
+  '@types/node': 18.16.1
+  vitepress: 1.0.0-alpha.74_@types+node@18.16.1
   vue: 3.2.47
 
 packages:
@@ -383,6 +385,10 @@ packages:
     dev: true
     optional: true
 
+  /@types/node/18.16.1:
+    resolution: {integrity: sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==}
+    dev: true
+
   /@types/web-bluetooth/0.0.16:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
     dev: true
@@ -394,7 +400,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.3.3
+      vite: 4.3.3_@types+node@18.16.1
       vue: 3.2.47
     dev: true
 
@@ -661,7 +667,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /vite/4.3.3:
+  /vite/4.3.3_@types+node@18.16.1:
     resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -686,6 +692,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.16.1
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.0
@@ -693,7 +700,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.74:
+  /vitepress/1.0.0-alpha.74_@types+node@18.16.1:
     resolution: {integrity: sha512-n5UHqsLJKaJ3V6BSiofS5ZVhtxzarNIn3/kyOzUp/vePmVbQyX/pZ6/MhZgNr0g5t4E55j7XM3AHf/Fo0hnrpw==}
     hasBin: true
     dependencies:
@@ -706,7 +713,7 @@ packages:
       mark.js: 8.11.1
       minisearch: 6.0.1
       shiki: 0.14.1
-      vite: 4.3.3
+      vite: 4.3.3_@types+node@18.16.1
       vue: 3.2.47
     transitivePeerDependencies:
       - '@algolia/client-search'
